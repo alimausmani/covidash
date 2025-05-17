@@ -4,6 +4,7 @@ A responsive and interactive COVID-19 Dashboard built with React.js that visuali
 
 ![Screenshot](assets/image.png)
 
+
 ---
 
 ## 📌 Features
