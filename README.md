@@ -2,7 +2,7 @@
 
 A responsive and interactive COVID-19 Dashboard built with React.js that visualizes pandemic statistics using Pie and Line charts and clean UI components.
 
-![Screenshot](./assets/image.png)
+![Screenshot](assets/image.png)
 
 ---
 
@@ -18,12 +18,10 @@ A responsive and interactive COVID-19 Dashboard built with React.js that visuali
 - 💡 Clean and modular code structure  
 
 ---
-
 ## 🔗 Live Demo
 
-_Optional: Add link here if deployed (e.g., Vercel/Netlify)._
+[Click here to view the live demo](https://covidash-puce.vercel.app/)
 
----
 
 ## 🚀 Getting Started
 
