@@ -2,7 +2,8 @@
 
 A responsive and interactive COVID-19 Dashboard built with React.js that visualizes pandemic statistics using Pie and Line charts and clean UI components.
 
-![Screenshot](assets/image.png)
+![Screenshot]![image](https://github.com/user-attachments/assets/5bc82e44-eae3-43ca-8ff5-fe56f7cb3de2)
+
 
 ---
 
