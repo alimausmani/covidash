@@ -1,12 +1,102 @@
-# React + Vite
+# 🦠 CoviDash - COVID-19 Dashboard
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A responsive and interactive COVID-19 Dashboard built with React.js that visualizes pandemic statistics using Pie and Line charts and clean UI components.
 
-Currently, two official plugins are available:
+![Screenshot](./assets/image.png)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## 📌 Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- 📊 Displays COVID-19 historical data (cases, deaths, recoveries) for the last 1500 days  
+- 🌐 Country selector dropdown with search functionality  
+- 📈 Interactive **Line Chart** showing case trends over time  
+- 🧮 Statistical Cards showing total cases, deaths, and recovered  
+- 📉 Pie Chart for visual distribution  
+- ✅ Fully responsive layout  
+- 🔁 API Integration with error handling  
+- 💡 Clean and modular code structure  
+
+---
+
+## 🔗 Live Demo
+
+_Optional: Add link here if deployed (e.g., Vercel/Netlify)._
+
+---
+
+## 🚀 Getting Started
+
+### 1. Clone the repo
+
+```bash
+git clone git@github.com:alimausmani/covidash.git
+cd covidash
+````
+
+### 2. Install dependencies
+
+```bash
+npm install
+```
+
+### 3. Run the app locally
+
+```bash
+npm run dev
+```
+
+Then open your browser at:
+👉 `http://localhost:5173`
+
+---
+
+## 🔌 APIs Used
+
+### 📈 COVID-19 Historical Data
+
+* Endpoint: `https://disease.sh/v3/covid-19/historical/{country}?lastdays=1500`
+* Replace `{country}` with the **ISO code** (e.g., `usa`, `ind`)
+
+### 🌍 Country List
+
+* Endpoint: `https://restcountries.com/v3.1/all`
+
+---
+
+## 🗂️ Project Structure
+
+```
+covidash/
+├── assets/                # Images and static files
+│   └── image.png          # Project screenshot
+├── components/            # Reusable React components
+├── App.css                # CSS files
+├── App.jsx
+├── main.jsx
+└── README.md
+```
+
+---
+
+## 🛠️ Technologies Used
+
+* React.js
+* Vite
+* Recharts
+* REST APIs
+* HTML5 + CSS3
+
+---
+
+## 📦 Future Improvements
+
+* Add global vs country toggle
+* Enhance chart interactions
+* Add dark/light mode
+
+---
+
+## 🙋‍♀️ Author
+
+Made with ❤️ by [Alima Usmani](https://github.com/alimausmani)
