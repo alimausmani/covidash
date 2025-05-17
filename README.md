@@ -87,14 +87,6 @@ covidash/
 
 ---
 
-## 📦 Future Improvements
-
-* Add global vs country toggle
-* Enhance chart interactions
-* Add dark/light mode
-
----
-
 ## 🙋‍♀️ Author
 
 Made with ❤️ by [Alima Usmani](https://github.com/alimausmani)
